@@ -1,0 +1,37 @@
+POST http://localhost:3001/compras HTTP/1.1
+Content-Type: application/json
+
+{
+  "usuarioId": 2,
+  "productoId": 4,
+  "cantidad": 5
+}
+
+###
+GET http://localhost:3001/articulos HTTP/1.1
+
+###
+GET http://localhost:3001/compras HTTP/1.1
+
+###
+GET http://localhost:3001/usuarios HTTP/1.1
+
+###
+PUT http://localhost:3001/usuarios/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "uwuwuwu",
+  "email": "pepe@example.com",
+  "phone": "1234567890"
+}
+
+
+###
+DELETE http://localhost:3001/articulos/11 HTTP/1.1
+
+###
+DELETE http://localhost:3001/usuarios/1 HTTP/1.1
+
+###
+GET http://localhost:3001/compra/8 HTTP/1.1

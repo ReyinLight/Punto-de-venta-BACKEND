@@ -1,0 +1,39 @@
+{
+  "articulos": [
+    {
+      "id": 1,
+      "nombre": "Figura Decorativa",
+      "descripcion": "Una figura decorativa para tu hogar.",
+      "precio": 20,
+      "existencia": 15
+    },
+    {
+      "id": 2,
+      "nombre": "Tetera de Cerámica",
+      "descripcion": "Una elegante tetera para tus tazas de té.",
+      "precio": 30,
+      "existencia": 10
+    },
+    {
+      "id": 3,
+      "nombre": "Lámpara Moderna",
+      "descripcion": "si .",
+      "precio": 40,
+      "existencia": 5
+    },
+    {
+      "id": 4,
+      "nombre": "Camara",
+      "descripcion": "rosa.",
+      "precio": 400,
+      "existencia": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Tele",
+      "descripcion": "saas.",
+      "precio": 400,
+      "existencia": 2
+    }
+  ]
+}
